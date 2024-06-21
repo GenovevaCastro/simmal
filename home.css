@@ -2,66 +2,65 @@ body {
     background-color: white;
     margin: 0%;
     overflow-x: hidden;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: Futura;
     src: url(Tipografias/Futura\ Light.otf);
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: Metropolis;
     src: url(Tipografias/Metropolis-Light.otf);
-  }
-  
-  
-  .header {
+}
+
+.header {
     background-color: #251963;
     display: flex;
     justify-content: end;
     align-items: center;
     height: auto;
     padding: 10px 40px;
-  }
-  
-  .header .logo {
+}
+
+.header .logo {
     cursor: pointer;
-  }
-  
-  .header .logo img {
+}
+
+.header .logo img {
     height: 50px;
     width: auto;
     transition: all 0.3s;
-  }
-  
-  .header .logo img:hover {
+}
+
+.header .logo img:hover {
     transform: scale(1.2);
-  }
-  
-  .header .navLinks {
+}
+
+.header .navLinks {
     list-style: none;
-  }
-  
-  .header .navLinks li {
+}
+
+.header .navLinks li {
     display: inline-block;
     padding: 0 20px;
-  }
-  
-  .header .navLinks a {
+}
+
+.header .navLinks a {
     font-size: 17;
     color: white;
     text-decoration: none;
-  }
-  
-  .header .navLinks li:hover {
+}
+
+.header .navLinks li:hover {
     transform: scale(1.1);
-  }
-  
-  .header .navLinks li a:hover {
+}
+
+.header .navLinks li a:hover {
     color: orange;
-  }
-  
-  .btn button {
+}
+
+.btn button {
     font-size: 15;
     color: white;
     padding: 3px 3px;
@@ -70,135 +69,119 @@ body {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s;
-  }
-  
-  .btn button:hover {
+}
+
+.btn button:hover {
     background-color: orange;
     color: white;
     transform: scale(1.1);
-  }
-  
-  
-  
-  .change {
+}
+
+.change {
     height: 40px;
     background-color: #251963;
-  
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  .navegator {
+
+}
+
+.navegator {
     height: 80px;
     width: auto;
     font-family: Futura;
     background-color: #251963;
-  }
-  
-  #listaNavegador {
+}
+
+#listaNavegador {
     padding-top: 15px;
-  }
-  
-  #logoSmall {
+}
+
+#logoSmall {
     width: 100px;
-  }
-  
-  #divImagenPrincipal {
+}
+
+#divImagenPrincipal {
     background: yellow;
     width: 100%;
     height: auto;
-  }
-  
-  #imagenInicio {
+}
+
+#imagenInicio {
     width: 100%;
     height: auto;
-  }
-  
-  .divQuieneSomos {
+}
+
+.divQuieneSomos {
     font-family: Futura;
     width: 100%;
     height: auto;
     background: #251963;
-  }
-  
-  .imgQuieneSomos {
+}
+
+.imgQuieneSomos {
     width: 100%;
     height: auto;
-  }
-  
-  
-  
-  
-  #divImg {
+}
+
+#divImg {
     background-color: white;
     height: 380px;
-  }
-  
-  #img {
+}
+
+#img {
     margin-top: 50px;
     width: 250px;
-  }
-  
-  #divTexto {
+}
+
+#divTexto {
     background-color: white;
     height: 380px;
-  }
-  #texto {
+}
+
+#texto {
     margin-inline: 40px;
     margin-top: 50px;
-  }
-  #textoServicios {
+}
+
+#textoServicios {
     padding-right: 50px;
     margin-inline: 40px;
     margin-top: 10px;
-  }
-  #divImgServicios{
+}
+
+#divImgServicios {
     background-color: white;
     height: 380px;
-  }
-  
-  .prueba {
+}
+
+.prueba {
     border: groove 3px;
-  }
-  
-  .franjaBlanca {
+}
+
+.franjaBlanca {
     width: 100%;
     height: 20px;
     background-color: white;
-  }
-  
-  
-  
-  
-  
-  
-  
-  #imagenInstalaciones {
+}
+
+#imagenInstalaciones {
     width: 100%;
-  }
-  
-  .divInstalaciones {
+}
+
+.divInstalaciones {
     font-family: Futura;
     width: 100%;
     height: auto;
     background: #251963;
-  }
-  
-  .container {
+}
+
+.container {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
-  }
-  
-  .container figure {
+}
+
+.container figure {
     position: relative;
     height: 400px;
     width: auto;
@@ -207,15 +190,15 @@ body {
     box-shadow: 0px 30px 40px rgba(0, 0, 0, 1);
     cursor: pointer;
     margin: 50px;
-  }
-  
-  .container figure img {
+}
+
+.container figure img {
     width: 100%;
     height: 100%;
     transition: all 500ms ease-out;
-  }
-  
-  .container figure .capa {
+}
+
+.container figure .capa {
     position: absolute;
     top: 0;
     width: 100%;
@@ -225,73 +208,61 @@ body {
     opacity: 0;
     visibility: hidden;
     text-align: center;
-  }
-  
-  .container figure:hover>.capa {
+}
+
+.container figure:hover>.capa {
     opacity: 1;
     visibility: visible;
-  }
-  
-  .container figure:hover>.capa h1 {
+}
+
+.container figure:hover>.capa h1 {
     margin-top: 30px;
     margin-bottom: 15px;
-  }
-  
-  .container figure .capa h1 {
+}
+
+.container figure .capa h1 {
     color: black;
     font-weight: 400px;
     margin-bottom: 180px;
     transition: all 500ms ease-out;
-  }
-  
-  .container figure:hover>img {
+}
+
+.container figure:hover>img {
     transform: scale(1.3);
-  }
-  
-  .container figure .capa p {
+}
+
+.container figure .capa p {
     color: black;
     font-size: 20px;
     line-height: 1.5;
     width: 100%;
     max-width: 800px;
-  }
-  
-  .divtextoQuienesomos {
+}
+
+.divtextoQuienesomos {
     font-size: small;
     justify-content: center;
     margin: 30px;
-  }
-  
-  
-  
-  .divFooter {
+}
+
+.divFooter {
     background-color: #ACA9C8;
-  }
-  
-  .divRss {
+}
+
+.divRss {
     font-family: Futura;
     align-items: center;
     display: flex;
     width: 100%;
     justify-content: center;
-  }
-  
-  .rss {
+}
+
+.rss {
     margin-left: 20px;
     width: 20px;
     height: 20px;
-  }
-  
-  .info {
+}
+
+.info {
     margin: 20px;
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+}
