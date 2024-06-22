@@ -113,15 +113,40 @@ body {
     height: auto;
 }
 
+#imgQuieneSomos{
+    padding: 20px;
+    width: 80%;
+}
+#divImgQuieneSomos{
+    justify-content: center;
+    border: none;
+}
+#rowQuieneSomos{
+    background-color: yellow;
+}
 .divQuieneSomos {
     height: auto;
     background: #251963;
 }
-
-.imgQuieneSomos {
-    width: 100%;
-    height: auto;
+#divtextoQuieneSomos{
+    border: none;
+    background-color: #251963;
+    font-family: Cabin;
 }
+.quieneSomosH3{
+    letter-spacing: 7;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: Cabin;
+}
+
+.textoQuieneSomos{
+    color: white;
+    margin-inline: 30px;
+    font-size: calc(.5vw + .7em);
+}
+
 #divImg {
     padding-bottom: 50px;
     background-color: white;
@@ -180,10 +205,8 @@ body {
 
 .divInstalaciones {
     padding: 20px;
-    font-size: clamp(small, medium, large);
     line-height: 1.7;
     font-family: Cabin;
-
     background: #251963;
 }
 
@@ -231,20 +254,16 @@ body {
     color: black;
     line-height: 1.5;
 }
-.textoQuery{
-    font-size: calc(1.2vw + .7em);
+
+
+
+.textoInstalaciones{
+    margin-top: 10px;
+    font-size: calc(1.2vw + .5em);
 }
 
-.divtextoQuienesomos {
-    
+.divtextoInstalaciones {
     justify-content: center;
-}
-.quieneSomosTexto{
-    font-size: clamp(small, small, 5em);
-    letter-spacing: 5;
-    margin-bottom: 20px;
-    background-color: #251963;
-    color: white;
 }
 
 .divFooter {
