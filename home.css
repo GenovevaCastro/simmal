@@ -19,6 +19,7 @@ body {
     src: url(Tipografia/Nauman-Regular.ttf);
 }
 
+/*------------------Header--------------------*/
 .header {
     font-family: Coco;
     background-color: #251963;
@@ -103,6 +104,8 @@ body {
     width: 100px;
 }
 
+/*------------------Imagen con logo grande--------------------*/
+
 #divImagenPrincipal {
     width: 100%;
     height: auto;
@@ -112,6 +115,8 @@ body {
     width: 100%;
     height: auto;
 }
+
+/*------------------Quienes somos--------------------*/
 
 #imgQuieneSomos {
     padding: 20px;
@@ -153,6 +158,16 @@ body {
     font-size: calc(.5vw + .7em);
 }
 
+.nosotrosCarrusel {
+    padding: 30px;
+    background: #251963;
+}
+
+.imagenesCarrusel {
+    width: 80%;
+}
+
+/*------------------Info divs--------------------*/
 #divImg {
     padding-bottom: 50px;
     background-color: white;
@@ -170,13 +185,13 @@ body {
     background-color: white;
 }
 
-#texto {
+.texto {
     margin-top: 50px;
     margin-bottom: 50px;
     margin-inline: 100px;
 }
 
-#textoServicios {
+.textoServicios {
     font-size: clamp(small, small, 5em);
     line-height: 1.7;
     font-family: Nauman;
@@ -184,10 +199,6 @@ body {
     margin-top: 50px;
     margin-bottom: 20px;
     margin-inline: 100px;
-}
-
-.verMasBoton {
-    margin-bottom: 40px;
 }
 
 #divImgServicios {
@@ -205,6 +216,7 @@ body {
     background-color: white;
 }
 
+/*------------------Instalaciones--------------------*/
 
 .nuestrasInstalaciones {
     margin-bottom: 20px;
@@ -264,8 +276,6 @@ body {
     line-height: 1.5;
 }
 
-
-
 .textoInstalaciones {
     margin-top: 10px;
     font-size: calc(1.2vw + .5em);
@@ -275,17 +285,7 @@ body {
     justify-content: center;
 }
 
-
-.nuestrosProyectos {
-    padding: 30px;
-    background: #251963;
-}
-
-.imagenesCarrusel {
-    width: 80%;
-}
-
-
+/*------------------Footer--------------------*/
 
 .divFooter {
     background-color: #ACA9C8;
