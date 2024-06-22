@@ -23,7 +23,7 @@ body {
     font-family: Coco;
     background-color: #251963;
     display: flex;
-    justify-content: end;
+    justify-content: start;
     align-items: center;
     height: auto;
     padding: 10px 40px;
@@ -67,7 +67,7 @@ body {
 }
 
 .btn button {
-    font-family: Coco;
+    font-family: Nauman;
     font-size: 15;
     color: white;
     padding: 5px 10px;
@@ -113,27 +113,32 @@ body {
     height: auto;
 }
 
-#imgQuieneSomos{
+#imgQuieneSomos {
     padding: 20px;
     width: 80%;
 }
-#divImgQuieneSomos{
+
+#divImgQuieneSomos {
     justify-content: center;
     border: none;
 }
-#rowQuieneSomos{
-    background-color: yellow;
+
+#rowQuieneSomos {
+    background-color: #251963;
 }
+
 .divQuieneSomos {
     height: auto;
     background: #251963;
 }
-#divtextoQuieneSomos{
+
+#divtextoQuieneSomos {
     border: none;
     background-color: #251963;
     font-family: Cabin;
 }
-.quieneSomosH3{
+
+.quieneSomosH3 {
     letter-spacing: 7;
     color: white;
     margin-top: 50px;
@@ -141,7 +146,8 @@ body {
     font-family: Cabin;
 }
 
-.textoQuieneSomos{
+.textoQuieneSomos {
+    font-family: Nauman;
     color: white;
     margin-inline: 30px;
     font-size: calc(.5vw + .7em);
@@ -159,7 +165,8 @@ body {
 
 #divTexto {
     line-height: 2;
-    font-family: Coco;
+    font-family: Nauman;
+    ;
     background-color: white;
 }
 
@@ -172,12 +179,14 @@ body {
 #textoServicios {
     font-size: clamp(small, small, 5em);
     line-height: 1.7;
-    font-family: Coco;
+    font-family: Nauman;
+    ;
     margin-top: 50px;
     margin-bottom: 20px;
     margin-inline: 100px;
 }
-.verMasBoton{
+
+.verMasBoton {
     margin-bottom: 40px;
 }
 
@@ -197,7 +206,7 @@ body {
 }
 
 
-.nuestrasInstalaciones{
+.nuestrasInstalaciones {
     margin-bottom: 20px;
     background-color: #251963;
     color: white;
@@ -257,7 +266,7 @@ body {
 
 
 
-.textoInstalaciones{
+.textoInstalaciones {
     margin-top: 10px;
     font-size: calc(1.2vw + .5em);
 }
@@ -265,6 +274,18 @@ body {
 .divtextoInstalaciones {
     justify-content: center;
 }
+
+
+.nuestrosProyectos {
+    padding: 30px;
+    background: #251963;
+}
+
+.imagenesCarrusel {
+    width: 80%;
+}
+
+
 
 .divFooter {
     background-color: #ACA9C8;
